@@ -23,6 +23,7 @@ content_ul = content.find('ul')
 item_list = content_ul.find_all('a')
 #查找包含每一项信息的标签<a>
 movie_link = []
+
 for item in item_list:
     item_name = item.text
     #获取每一项名字
